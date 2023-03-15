@@ -1,0 +1,22 @@
+package edu.kh.jdbc.model.dao;
+
+import java.sql.Connection;
+
+import edu.kh.jdbc.model.vo.TestVO;
+
+public class TestDAO {
+
+	// DAO(Data Access Object) : 데이터가 저장된 DB에 접근하는 객체
+	//							-> SQL 수행, 결과 반환 받는 기능을 수행
+	
+	/** 1행 삽입 DAO
+	 * @param conn
+	 * @param vo1
+	 * @return
+	 */
+	public int insert(Connection conn, TestVO vo1) {
+		return 0;
+	}
+
+
+}
